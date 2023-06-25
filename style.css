@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Poppins:wght@500;600;700&family=Tilt+Prism&display=swap');
+*{
+  margin:5px 5px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(191, 232, 218);
+ 
+}
+
+
+.navbar{
+  display: flex;
+}
+
+
+
+ul {
+  flex: 1;
+  text-align: right;  
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+ font-size: larger;
+  
+}
+ul li a{
+  color: black;
+}
+li :hover{
+  color: rgb(22, 118, 202);
+  font-size: 20px;
+  transition: 0.1s;
+
+}
+.block1,.block2{
+  
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  
+}
+.text1,.text2{
+ padding-left: 30px;
+ padding-top: 80px;
+  width: 60%;
+}
+h1{
+  
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+
+}
+
+p{
+font-size: 16px;
+font-family: 'Work Sans', sans-serif;
+
+}
+.photo1{
+  background-size: contain ;
+}
+.email{
+  border: 2px solid rgb(44, 43, 43);
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 8px #888888;
+  padding-left: 20px;
+  height:35px;
+  width: 40%; 
+  
+}
+.email:hover,#email-text:hover{
+  background-color: rgb(107, 215, 248);
+  color:blueviolet;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+button{
+ float: right;
+  width: 150px;
+  border-radius: 5px;
+  height:35px;
+  background-color: blue ;
+ color: antiquewhite;
+ cursor: pointer;
+}
+button:hover{
+  background-color: white;
+  color: blue;
+  transition: 0.8s;
+  border-radius: 10px;
+}
+img{
+  height: 300px;
+  width: 100%;
+ 
+}
+.green{
+  color: rgb(74, 210, 74);
+  font-weight: 300;
+  font-size: large;
+}
+.quote{
+  width: 35%;
+  height:fit-content;
+padding-left: 2px;
+  box-shadow: 2px 2px 2px 2px #938d8d;
+  background-color: white;
+  box-shadow: 0px 0px 0px 0.4;
+  border-radius: 2px;
+  color:red;
+}
+.quote:hover{
+ color:rgb(239, 76, 76);
+ background-color: aquamarine;
+ border-radius: 5px 20px;
+ transition: 1s;
+ box-shadow: 2px 2px 2px 2px #787474;
+}
+.get-early{
+ display: flex;
+ height: inherit;
+ width: 95%;
+ margin: auto;
+ margin-top: 30px;
+
+
+}
+.get-early-text{
+  width: 70%;
+  padding-left: 25px;
+
+
+}
+.get-early-text h2{
+ font-size:35px;
+ 
+}
+
+.get-started-free{
+height: fit-content;
+  float: right;
+  
+ padding-top: 20px;
+ padding-left: 30%;
+  margin-left: 20px;
+}
+#email-text{
+  width: 90%;
+  height: 30px; 
+  text-align: center;
+}
+#email{
+ width: 90%;
+ height: 25px;
+ float: left;
+}
+::placeholder{
+  color:rgb(225, 114, 40);
+}
+
+.footer{
+  
+  width: 94%;
+  margin: auto;
+  padding-top: 30px;
+ 
+  display: flex ;
+}
+.fylo,.about-Us,.contact-us,.site{
+  display: block;
+
+  width: 25%;
+ 
+}
+.x li{
+  display: block;
+  text-align: center;
+  padding: 5px;
+
+}
+.site a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(74, 71, 71, 0.2);
+  text-align: center;
+  margin: 0 10px 10px 0;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: all 0.2s ease;
+}
+.site a:hover{
+
+  background-color: black;
+  border-radius: 50%;
+}
+  
+h4{
+  font-size: 18px;
+  color:#e91e63;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+  position: relative;
+  font-size: large;
+  font-style: bold;
+  
+}
